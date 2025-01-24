@@ -1,0 +1,3 @@
+This repository demonstrates a subtle error in Tcl's error handling. The `check_range` procedure is designed to validate if a value falls within a specified range. However, if the order of `min` and `max` is reversed, it will throw an error. The error message itself can then cause an unexpected integer conversion error.
+
+The solution demonstrates how to modify the error handling to prevent this issue.
